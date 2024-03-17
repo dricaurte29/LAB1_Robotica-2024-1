@@ -4,7 +4,16 @@ Este proyecto tiene como objetivo programar un robot ABB IRB 140 para dibujar el
 
 ## Descripción de la Solución Planteada
 
-El robot ABB IRB 140 ha sido programado para moverse de manera precisa sobre el tablero inclinado, siguiendo un conjunto de instrucciones predefinidas para dibujar el logo de Renault y las iniciales.
+El robot ABB IRB 140 ha sido programado para moverse de manera precisa sobre el tablero inclinado, siguiendo un conjunto de instrucciones predefinidas para dibujar el logo de Renault y las iniciales. Para esto, primero se hizo el diseño de la herramienta que contiene el marcador, se modeló el workobject, y se definieron las orientaciones y trayectorias.
+
+## Diseño de la Herramienta
+
+La herramienta de dibujo ha sido diseñada para adaptarse al extremo del robot ABB IRB 140 y permitir trazos precisos sobre el tablero. Se ha tenido en cuenta la estabilidad y la precisión en el diseño de la herramienta para garantizar resultados óptimos en el dibujo, además de dotarla con un sistema de retroceso que permite que la punta del marcador pueda retroceder cuando la presiona el robot, por medio de un resorte interno.
+Se diseñaron las piezas que comprende el ensamblaje, base, cilindro y tapa, que tienen el mecanismo de cierre facil para montar el marcador:
+![Plano Cilindro](cilindro.png)
+![Plano Base](base.png)
+![Plano Tapa](tapa.png)
+
 
 ## Diagrama de Flujo de Acciones del Robot
 
@@ -22,9 +31,6 @@ El plano de planta muestra la disposición física de cada elemento en el entorn
 
 Se han utilizado diversas funciones en el código para controlar los movimientos del robot, gestionar la inclinación del plano y garantizar la precisión del dibujo. Estas funciones incluyen movimientos lineales y rotacionales, así como comandos para controlar la herramienta de dibujo.
 
-## Diseño de la Herramienta
-
-La herramienta de dibujo ha sido diseñada para adaptarse al extremo del robot ABB y permitir trazos precisos sobre el tablero. Se ha tenido en cuenta la estabilidad y la precisión en el diseño de la herramienta para garantizar resultados óptimos en el dibujo.
 
 ## Código en RAPID
 
