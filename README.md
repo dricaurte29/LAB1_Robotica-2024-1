@@ -10,21 +10,16 @@ El robot ABB IRB 140 ha sido programado para moverse de manera precisa sobre el 
 
 La herramienta de dibujo ha sido diseñada para adaptarse al extremo del robot ABB IRB 140 y permitir trazos precisos sobre el tablero. Se ha tenido en cuenta la estabilidad y la precisión en el diseño de la herramienta para garantizar resultados óptimos en el dibujo, además de dotarla con un sistema de retroceso que permite que la punta del marcador pueda retroceder cuando la presiona el robot, por medio de un resorte interno.
 Se diseñaron las piezas que comprende el ensamblaje, base, cilindro y tapa, que tienen el mecanismo de cierre facil para montar el marcador:
-<div style="display:flex; justify-content: space-between;">
-  <div style="flex:1;">
-    <p align="left">
-      <img src="cilindro.png" alt="Cilindro">
-    </p>
+
+<div style="display: flex; justify-content: center;">
+  <div style="flex: 1; text-align: left;">
+    <img src="cilindro.png" alt="Cilindro">
   </div>
-  <div style="flex:1;">
-    <p align="center">
-      <img src="base.png" alt="Base">
-    </p>
+  <div style="flex: 1; text-align: center;">
+    <img src="base.png" alt="Base">
   </div>
-  <div style="flex:1;">
-    <p align="right">
-       <img src="tapa.png" alt="Tapa">
-    </p>
+  <div style="flex: 1; text-align: right;">
+    <img src="tapa.png" alt="Tapa">
   </div>
 </div>
 
