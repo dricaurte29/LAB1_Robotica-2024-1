@@ -60,7 +60,4 @@ Se proporciona un vídeo que muestra la simulación del proyecto en RobotStudio,
 
 [Enlace al Vídeo de Simulación e Implementación](link_al_vídeo)
 
-Para cualquier pregunta o consulta adicional, no dude en contactar al autor del proyecto.
 
----
-Recuerda reemplazar "link_al_diagrama", "link_al_plano", "link_al_código" y "link_al_vídeo" con los enlaces correspondientes en tu repositorio de GitHub.
