@@ -1,7 +1,5 @@
 # Laboratorio 1 de Robótica: Dibujo del Logo de Renault e Iniciales en un Tablero inclinado
 
-
-**Integrantes:**
 - David Andrés Ricaurte de Lima  
   *Ingeniería Mecatrónica*  
   *Universidad Nacional de Colombia*  
