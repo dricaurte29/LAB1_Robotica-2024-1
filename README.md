@@ -10,7 +10,7 @@ El robot ABB IRB 140 ha sido programado para moverse de manera precisa sobre el 
 
 El diagrama de flujo de acciones del robot muestra la secuencia de movimientos y acciones ejecutadas por el robot para completar la tarea de dibujo. Este diagrama proporciona una visión general de la lógica de programación utilizada para controlar el robot.
 
-[Diagrama de Flujo de Acciones del Robot](diagramaflujo.png)
+![Diagrama de Flujo de Acciones del Robot](diagramaflujo.png)
 
 ## Plano de Planta
 
