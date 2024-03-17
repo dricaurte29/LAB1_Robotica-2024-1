@@ -1,5 +1,20 @@
 # Laboratorio 1 de Robótica: Dibujo del Logo de Renault e Iniciales en un Tablero inclinado
 
+
+**Integrantes:**
+- David Andrés Ricaurte de Lima  
+  *Ingeniería Mecatrónica*  
+  *Universidad Nacional de Colombia*  
+  Bogotá, Colombia  
+  dricaurte@unal.edu.co
+
+- Juan Rojas  
+  *Ingeniería Mecatrónica*  
+  *Universidad Nacional de Colombia*  
+  Bogotá, Colombia  
+  xxxg@unal.edu.co
+
+
 Este proyecto tiene como objetivo programar un robot ABB IRB 140 para dibujar el logo de Renault y las iniciales de los miembros del grupo en un tablero colocado en un plano inclinado. A continuación, se detalla la solución implementada.
 
 ## Descripción de la Solución Planteada
@@ -39,7 +54,7 @@ Se han utilizado diversas funciones en el código para controlar los movimientos
 
 El módulo utilizado para el desarrollo de la práctica se encuentra implementado en RAPID, el lenguaje de programación utilizado en los robots ABB. Este código controla todas las acciones del robot, desde los movimientos hasta el control de la herramienta de dibujo.
 
-[Enlace al Código en RAPID](link_al_código)
+[Enlace al Código en RAPID](https://github.com/dricaurte29/LAB1_Robotica-2024-1/blob/1e6cc3599e96ed0de572da09085f5021eb06aef4/Module1.mod)
 
 ## Vídeo de Simulación en RobotStudio y Implementación en Robots Reales
 
