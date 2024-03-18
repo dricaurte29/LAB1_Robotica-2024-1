@@ -29,7 +29,7 @@ Se diseñaron las piezas que comprende el ensamblaje, base, cilindro y tapa, que
 ![Herramienta](herramienta.png)
 
 La herramienta se elaboró por medio de impresión 3D, a partir del modelo diseñado. Los archivos utilizados para la impresión 3D, se encuentran disponlibles en:
-[Modelo 3D herramienta](https://www.thingiverse.com/)
+[Modelo 3D herramienta](https://www.thingiverse.com/thing:6537971)
 
 ## Diagrama de Flujo de Acciones del Robot
 
