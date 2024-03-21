@@ -6,11 +6,11 @@
   Bogotá, Colombia  
   dricaurte@unal.edu.co
 
-- Juan Rojas  
+- Juan Antonio Rojas Cobos
   *Ingeniería Mecatrónica*  
   *Universidad Nacional de Colombia*  
   Bogotá, Colombia  
-  xxxg@unal.edu.co
+  juarojasco@unal.edu.co
 
 
 Este proyecto tiene como objetivo programar un robot ABB IRB 140 para dibujar el logo de Renault y las iniciales de los miembros del grupo en un tablero colocado en un plano inclinado. A continuación, se detalla la solución implementada.
@@ -46,6 +46,23 @@ El plano de planta muestra la disposición física de cada elemento en el entorn
 ## Descripción de las Funciones Utilizadas
 
 Se han utilizado diversas funciones en el código para controlar los movimientos del robot, gestionar la inclinación del plano y garantizar la precisión del dibujo. Estas funciones incluyen movimientos lineales y rotacionales, así como comandos para controlar la herramienta de dibujo.
+
+Estas son las funcioes utilizadas:
+        WaitDI DI_01,1 : Espera que la entrada DI_01 tenga un valor de uno para permitir que el codigo continue (Espera que se presione el boton).
+        SetDO DO_01,1  : Setea el valor de la salida DO_01 en un valor de 1 (Enciende LED).
+        HomeToPrework  : Mueve el robot desde la posición inicial hasta una posición previa al inicio de la rutina.
+        Renault : Mueve el robot por la trayectoria que describe el logo.
+        ToPreworkDR : Devuelve a el robot a una posición de descanso previa a continuar la rutina.
+        Dint : Mueve el robot a lo largo de la trayectoria que describe la linea interior de la "D".
+        Dext : Mueve el robot a lo largo de la trayectoria que describe la linea exterior de la "D".
+        R1int : Mueve el robot a lo largo de la trayectoria que describe la linea interior de la "R".
+        R1ext : Mueve el robot a lo largo de la trayectoria que describe la linea exterior de la "R".
+        J : Mueve el robot a lo largo de la trayectoria que describe la linea de la "J".
+        R2int : Mueve el robot a lo largo de la trayectoria que describe la linea interior de la segunda "R".
+        R2ext : Mueve el robot a lo largo de la trayectoria que describe la linea exterior de la segunda "R".
+        WaitDI DI_02,1 : Espera que la entrada DI_02 este en 1 para continuar la rutina (Espera que se presione el segundo boton).
+        SetDO DO_01,0 : Setea el valor de la salida D0_01 en 0 (Apaga el LED).
+        ToHome : Envia el robot a la posición de mantenimiento.
 
 
 ## Código en RAPID
