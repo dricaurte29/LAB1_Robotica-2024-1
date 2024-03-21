@@ -39,7 +39,9 @@ El diagrama de flujo de acciones del robot muestra la secuencia de movimientos y
 
 ## Plano de Planta
 
-El plano de planta muestra la disposición física de cada elemento en el entorno de trabajo, incluidos el robot, el tablero y cualquier otro equipo necesario para la ejecución de la tarea.
+El plano de planta muestra la disposición física de cada elemento en el entorno de trabajo, incluidos el robot, el workobject y la herramienta.
+![Plano de Palnta](planom.png)
+
 
 [Plano de Planta](link_al_plano)
 
@@ -56,8 +58,13 @@ El módulo utilizado para el desarrollo de la práctica se encuentra implementad
 
 ## Vídeo de Simulación en RobotStudio y Implementación en Robots Reales
 
-Se proporciona un vídeo que muestra la simulación del proyecto en RobotStudio, así como la implementación de la práctica con robots reales. Este vídeo ofrece una demostración visual del funcionamiento del proyecto y los resultados obtenidos.
+Se proporciona un vídeo que muestra la simulación del proyecto en RobotStudio, así como la implementación de la práctica con el robot real. Este vídeo ofrece una demostración visual del funcionamiento del proyecto y los resultados obtenidos.
 
-[Enlace al Vídeo de Simulación e Implementación](link_al_vídeo)
+[Video Implementación](https://youtu.be/6jf_3rTcXpg)
+
+Resultado del dibujo:
+![Resultado](dibujo.jpeg)
+
+
 
 
