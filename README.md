@@ -48,6 +48,7 @@ El plano de planta muestra la disposición física de cada elemento en el entorn
 Se han utilizado diversas funciones en el código para controlar los movimientos del robot, gestionar la inclinación del plano y garantizar la precisión del dibujo. Estas funciones incluyen movimientos lineales y rotacionales, así como comandos para controlar la herramienta de dibujo.
 
 Estas son las funcioes utilizadas:
+```
         WaitDI DI_01,1 : Espera que la entrada DI_01 tenga un valor de uno para permitir que el codigo continue (Espera que se presione el boton).
         SetDO DO_01,1  : Setea el valor de la salida DO_01 en un valor de 1 (Enciende LED).
         HomeToPrework  : Mueve el robot desde la posición inicial hasta una posición previa al inicio de la rutina.
@@ -64,7 +65,7 @@ Estas son las funcioes utilizadas:
         SetDO DO_01,0 : Setea el valor de la salida D0_01 en 0 (Apaga el LED).
         ToHome : Envia el robot a la posición de mantenimiento.
 
-
+```
 ## Código en RAPID
 
 El módulo utilizado para el desarrollo de la práctica se encuentra implementado en RAPID, el lenguaje de programación utilizado en los robots ABB. Este código controla todas las acciones del robot, desde los movimientos hasta el control de la herramienta de dibujo.
