@@ -76,6 +76,7 @@ El módulo utilizado para el desarrollo de la práctica se encuentra implementad
 
 Se proporciona un vídeo que muestra la simulación del proyecto en RobotStudio, así como la implementación de la práctica con el robot real. Este vídeo ofrece una demostración visual del funcionamiento del proyecto y los resultados obtenidos.
 
+[Video Simulación](https://youtu.be/9bTxt7U3JFU)
 [Video Implementación](https://youtu.be/6jf_3rTcXpg)
 
 Resultado del dibujo:
